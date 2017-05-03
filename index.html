@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ruby's Cafe</title>
     <meta name="description" content="American Comfort Food on a Budget">
     <meta name="keywords" content="family friendly, inexpensive, breakfast all day, locally owned">
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans|Questrial|Francois+One">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans|Questrial|Francois+One|R">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- =======================================================
-        Theme Name: Delicious
-        Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-        Author: BootstrapMade.com
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -51,24 +47,28 @@
     </nav>
     <!--banner-->
     <section id="banner">
-      <div class="bg-color">
-        <header id="header">
-        </header>
+        <div class="bg-color">
+            <header id="header">
+              <div class=logo>
+            <div class="col-md-6 col-md-offset-3">
+              <img src= img\logo1.png class="img-responsive">
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
     </section>
     <!-- / banner -->
     <!--about-->
     <section id="about" class="about">
         <div class="container-fluid">
             <div class="row">
-              <div class = "col-xs-12 col-md-4">
-                <h3 class ="dark-blue regular">About</h3>
-                  <p> We are a family-friendly restaurant located in the heart Missoula's south side. Ruby's has been locally owned and operated since 19XX,
-                    and specializes in classic American comfort food. We serve breakfast all day, and hope to see you soon! </p>
-            </div>
-            <div class = "col-xs-12 col-md-4">
-                <h3 class="dark-blue regular">Operating Hours</h4>
+                <div class="col-xs-12 col-md-4">
+                    <h3 class="dark-blue regular">About</h3>
+                    <p> We are a family-friendly restaurant located in the heart Missoula's south side. Ruby's has been locally owned and operated since 19XX, and specializes in classic American comfort food. We serve breakfast all day, and hope to see you
+                        soon! You keep us cookin'! </p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h3 class="dark-blue regular">Operating Hours</h4>
                   <p>Monday: 6 AM - 8 PM</p>
                   <p>Tuesday: 6 AM - 8 PM </p>
                   <p>Wednesday: 6 AM - 8 PM </p>
@@ -79,169 +79,261 @@
             </div>
                 <div class="col-xs-12 col-md-4">
                     <h3 class="dark-blue regular">Contact </h3>
-                        <p> 2101 Regent St.
-                            <br>
-                            Missoula, MT 59801
-                        </p>
-                        <p> View Map </p>
-                        <p><a href=tel:+14067289890> (406) 728-9890</a></p>
-                        <p>
-                          <i class = "fa fa-facebook-official"></i> &nbsp
-                          <i class = "fa fa-twitter"></i> &nbsp
-                          <i class = "fa fa-yelp"></i> &nbsp
-                        </p>
-                  </div>
-              </div>
+                    <p> 2101 Regent St.
+                        <br> Missoula, MT 59801
+                    </p>
+                    <p> View Map </p>
+                    <p><a href=tel:+14067289890> (406) 728-9890</a></p>
+                    <p>
+                        <i class="fa fa-facebook-official"></i> &nbsp
+                        <i class="fa fa-twitter"></i> &nbsp
+                        <i class="fa fa-yelp"></i> &nbsp
+                    </p>
+                </div>
             </div>
+        </div>
     </section>
     <!--/about-->
     <!-- menu -->
     <section id="menu-list" class="menu">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 text-center marb-35">
+                <div class="col-md-12 text-center">
                     <h1 class="header-h">Our Menu</h1>
                 </div>
-                <div class="col-md-12  text-center gallery-trigger">
-                    <ul>
-                        <li><a class="filter" data-filter="all">Show All</a></li>
-                        <li><a class="filter" data-filter=".category-1">Breakfast</a></li>
-                        <li><a class="filter" data-filter=".category-2">Lunch and Dinner</a></li>
+                <div id="menuitems" class="col-md-12 nav-tabs-responsive text-center">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#breakfast">Breakfast - Served All Day! </a></li>
+                        <li><a data-toggle="tab" href=#ld>Lunch and Dinner</a></li>
+                        <li><a data-toggle="tab" href=#bevs>Beverages, Desserts and Sides</a></li>
                     </ul>
                 </div>
-                <div id="Container">
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">$20.99</span>
-                      </span>
-                      <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="breakfast">
+                <div class="col-xs-12 col-md-4">
+                    <h4>French Toast</h4>
+                    <p>Three slices of thick Texas Toast dipped in our own batter.</p>
+                    <p>$6.25</p>
+                    <h4>Short Stack of Pancakes</h4>
+                    <p>$4.50 for 2</p>
+                    <h4>Full Stack of Pancakes</h4>
+                    <p>$5.75 for 3</p>
+                    <h4>Blueberry or Chocolate Chip Pancakes</h4>
+                    <p>$3.50 for 1, $6.25 for 2, $7.50 for 3</p>
+                    <h4>Biscuits and Gravy</h4>
+                    <p>Served with hashbrowns, country gravy and four links or bacon. Add two eggs for $1.95 extra.</p>
+                    <p>$8.25</p>
+                    <h4>Flathead Monster</h4>
+                    <p>Two scambled eggs, tomatoes, ham and your choice of cheese served between two pieces of grilled french bread</p>
+                    <p>$8.95</p>
+                    <h4>The Wake Up</h4>
+                    <p>Grilled english muffin with a scrambled egg and your choice of meat and cheese</p>
+                    <p>$7.95</p>
+                    <h4>The Monte</h4>
+                    <p>Two crambled eggs, sausage patty and cheese on a multigrain croissant</p>
                 </div>
+                <div class="col-xs-12 col-md-4">
+                    <h3>Breakfasts below served with Hashbrowns and one slice or toast or one pancake:<h3>
+                <h4>Breakfast meat and eggs</h4>
+                <p>Choose from bacon, link sausage, patty sausage or andouille sausage</p>
+                <p>$9.50</p>
+                <h4>Corned beef hash and eggs</h4>
+                <p>$9.50</p>
+                <h4>Ham and Eggs</h4>
+                <p>6 oz. bone-in, ham steak.
+                <p>$9.95</p>
+                <h4>Steak and Eggs</h4>
+                <p>8 oz. ribeye</p>
+                <p>$12.95</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <h3>All omelettes are served with hashbrowns and one slice of toast or one pancake:</h3>
+                    <h4>Meat and cheese omelette</h4>
+                    <p>Choose from ham, bacon or sausage</p>
+                    <p>$9.75</p>
+                    <h4>Western omelette</h4>
+                    <p>Diced ham with onions, green peppers and cheddar cheese</p>
+                    <p>9.75</p>
+                    <h4>Veggie omelette</h4>
+                    <p>Onions, peppers, mushrooms, spinach and tomatoes</p>
+                    <p>$9.50</p>
+                    <h4>SBT</h4>
+                    <p>Spinach, bacon, tomato and your choice of cheese</p>
+                    <p>$10.25</p>
+                    <h4>Two alarm omelette</h4>
+                    <p>Sausage, onions, mushrooms, pepper jack cheese and our jalepe&ntilde;o green chile sauce</p>
+                    <h4>Garbage omelette</h4>
+                    <p> All three meats, three kinds of cheese, mushrooms, onions, peppers and tomatoes
+                        <p>$11.50</p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ld">
+                <div class="col-xs-12 col-md-4">
+                    <h3>All burgers are 1/3 of a pound and served on a potato bun. Double your burger for $2.50 extra. Served with all the fixings and fries, Ruby's fries, soup or salad. Substitute onion rings for $2.00 extra.</h3>
+                    <h4>Old Faithful hamburger</h4>
+                    <p>$8.50</p>
+                    <h4>"The Classic" Cheeseburger</h4>
+                    <p>Your choice of pepper jack, American, swiss or cheddar cheese</p>
+                    <p>$9.25</p>
+                    <h4>Bitterroot Bacon Cheeseburger</h4>
+                    <p>$9.75</p>
+                    <h4>Harley Burger</h4>
+                    <p>A bacon cheeseburger with a fried egg on top</p>
+                    <p>$9.95</p>
+                    <h4>Firehouse Burger</h4>
+                    <p>Not too spicy! Bacon, pepperjack cheese and our homemade green chili sauce</p>
+                    <p>$9.95</p>
+                    <h4>Mount Jumbo Melt</h4>
+                    <p>1/2 pount burger, grilled onions, swiss and American cheese, served on Rye</p>
+                    <p>$9.95</p>
+                    <h4>The Chicken Burger</h4>
+                    <p>A four oz. grilled chicken breast, served on a bun</p>
+                    <p>$9.25</p>
+                    <h4>Texas Melt Burger</h4>
+                    <p>BBQ sauce, cheddar cheese and a spicy bacon marmalade, topped with onion rings</p>
+                    <p>$10.25</p>
+                    <h4>Quinoa Veggie Burger</h4>
+                    <p>made in house from our special recipe, contains nuts</p>
+                    <p>$9.50</p>
+                    <h4>Chli Cheese Burger</h4>
+                    <p>Topped with onions and cheese</p>
+                    <p>$9.50</p>
+                    <h4>Glacier Burger</h4>
+                    <p>Double bacon cheeseburger, served with mushrooms</p>
+                    <p>$11.50</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h3>All items below are served with fries, Ruby's fries, soup or salad. Substitute onion rings for $2.00 extra.</h3>
+                    <h4>Grilled Cheese</h4>
+                    <p>$6.25</p>
+                    <p>Add tomatoes: $0.50</p>
+                    <p>Add ham or turkey: $1.50</p>
+                    <h4>Flint Creek French Dip</h4>
+                    <p>$9.25</p>
+                    <h4>Ruby's Dip</h4>
+                    <p>Melted swiss cheese, onions and peppers over sliced roast beef and served on a roll</p>
+                    <p>$10.25</p>
+                    <h4>The Stacker</h4>
+                    <p>Beef or turkey stacked high with mashed potatoes and gravy<p>
+                    <p>$10.25</p>
+                    <h4>Porky</h4>
+                    <p>Boneless pork chop, breaded and fried served on a potato bun</p>
+                    <p>$9.25</p>
+                    <h4>Rock Creek Ruben</h4>
+                    <p>Corned beef, swiss, sauerkraut and 1,000 island</p>
+                    <p>$10.25</p>
+                    <h4>Beartooth Meatloaf Melt</h4>
+                    <p>Homemade meatloaf served between sourdough bread, with grilled onions</p>
+                    <p>$10.25</p>
+                    <h4>Clarkfork Club Sandwich</h4>
+                    <p>Not your mom's club. Chicken breast, bacon, lettuce, tomatoes and cheddar cheese served on Texas toast</p>
+                    <p>$9.75</p>
+                    <br>
+                    <h3>Cold Sandwiches are served on your choice of bread, with mayo, lettuce and tomatoes and come with your choice of soup, salad, fries or Ruby's fries.</h3>
+                    <h4>Deli Sandwich</h4>
+                    <p>Beef, turkey, ham or BLT</p>
+                    <p>1/2: $5.95</p>
+                    <p>Whole: $7.95</p>
+                    <h4>Ruby's Deli Special</h4>
+                    <p>1/2 deli sandwich, cup of soup or salad and a slice of pie</p>
+                    <p>$8.50</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <h3>The following items are served with your choice of potato, veggies and soup or salad</h3>
+                  <h4>Chicken Fried Steak</h4>
+                  <p>Fork tender NY cut, breaded in house</p>
+                  <p>$11.75</p>
+                  <h4>Beef liver and onioins</h4>
+                  <p>Topped with gravy if you choose</p>
+                  <h4>Hamburger Steak</h4>
+                  <p>1/2 pound burger served with grilled onions</p>
+                  <h4>Chicken Strips</h4>
+                  <p>Whole muscle breast filets, lightly breaded<p>
+                  <p>$10.25</p>
+                  <h4>Chicken Pot Pie</h4>
+                  <p>Made in-house with potatoes, veggies and lots of gravy</p>
+                  <p>$9.95</p>
+                  <h4>Beef Pastie</h4>
+                  <p>Plate size, served with brown gravy, our specialty</p>
+                  <p>$10.25</p>
+                  <h4>Fish and Chips</h4>
+                  <p>Beer battered cod fillets, served with lemon wedges and tartar sauce</p>
+                  <p>$11.50</p>
+                  <h4>Prime Rib</h4>
+                  <p>Served Fridays and Saturdays only after 4 p.m.</p>
+                  <p>$16.75</p>
+                  <br>
+                  <h3>The following items are served a la carte:</h3>
+                  <h4>Mini Corn Dog Basket</h4>
+                  <p>$6.75</p>
+                  <h4>Ruby's Chili Cheese Fries</h4>
+                  <p>$7.00</p>
+                  <h4>Cheese Fries</h4>
+                  <p>$3.75 & $4.75</p>
+                  <h4>French Fries</h4>
+                  <p>$2.75 & $3.74</p>
+                </div>
+            </div>
+              <div class="tab-pane fade" id="bevs">
+                <div class="col-xs-12 col-md-4">
+                <h2>Beverages</h2>
+                <h4>Coffee or Tea</h4>
+                <p>$1.95</p>
+                <h4>Hot Chocolate</h4>
+                <p>$2.50</p>
+                <h4>Milk</h4>
+                <p>$2.50</p>
+                <h4>Juice</h4>
+                <p>$2.80</p>
+                <h4>Fountain Soda</h4>
+                <p>$2.50</p>
+                <h4>Iced Tea</h4>
+                <p>$1.95</p>
+                <h4>Milkshakes</h4>
+                <p>Made with hard ice cream</p>
+                <p>$3.95</p>
+                <h4>Italian Sodas</h4>
+                <p>$2.74</p>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <h2>Desserts</h2>
+                <h3>Fresh baked baked goods are available in our restaurant 7 days a week</h3>
+                <h4>Cream and Fruit Pies</h4>
+                <p>$4.50</p>
+                <p>A la mode: $4.95</p>
+                <h4>Cookies</h4>
+                <p>$1.75</p>
+                <h4>Ice Cream</h4>
+                <p>Small $1.75</p>
+                <p>Large $2.95</p>
+                <h4>Brownies</h4>
+                <p>$1.75</p>
+                <p>Sundae: $3.95</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <h2>Sides</h2>
+              <h4>Bacon, links or patty sausage</h4>
+              <p>$3.95</p>
+              <p>1/2 order or bacon or links: $2.10</p>
+              <h4>Ham</h4>
+              <p>6 oz. bone-in</p>
+              <p>$4.95</p>
+              <h4>Eggs</h4>
+              <p>1: $1.85</p>
+              <p>2: $2.95</p>
+              <h4>Hash Browns</h4>
+              <p>$2.95</p>
+              <p>With Gravy: $3.95</p>
+              <h4>One biscuit with white gravy</h4>
+              <p>
             </div>
         </div>
     </section>
     <!--/ menu -->
     <!-- footer -->
-    <footer class="footer text-center">
-        <div class="footer-top">
-            <div class="row">
-                <div class="col-md-offset-3 col-md-6 text-center">
-                    <div class="widget">
-                        <h4 class="widget-title">Delicious</h4>
-                        <address>324 Ellte Road<br>Delhi, DL 110013</address>
-                        <div class="social-list">
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </div>
-                        <p class="copyright clear-float">
-                            © Delicious Theme. All Rights Reserved
-                            <div class="credits">
-                                <!--
-                                    All the links in the footer should remain intact.
-                                    You can delete the links only if you purchased the pro version.
-                                    Licensing information: https://bootstrapmade.com/license/
-                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
-                                -->
-                                Designed by <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a>
-                            </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- / footer -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -250,4 +342,5 @@
     <script src="contactform/contactform.js"></script>
 
 </body>
+
 </html>
