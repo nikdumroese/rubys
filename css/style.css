@@ -1,7 +1,7 @@
             body {
     font-size: 15px;
     line-height: 1.52;
-    color: #717f86;
+    color: black;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -89,7 +89,7 @@
         padding: 20px;
     }
     .about {
-        padding-top: 6rem;
+        padding-top: 10%;
         margin-bottom: 6rem;
         padding-left: 8%;
         padding-right: 8%;
@@ -174,46 +174,10 @@
     .media-2 {
         margin-top: 30px;
     }
-    .newinput .form-group {
-        margin: 8px 0 9px !important;
-        padding-bottom: 10px;
+    #photo1  {
+      padding-top: 3%;
     }
-    .contact-form .form-control {
-        color: #000 !important;
-        font-size: 16px;
-        font-weight: normal;
-        height: 38px;
-        line-height: 1.42857;
-        padding: 7px 0;
-    }
-    .form-control, .form-group .form-control {
-        border: 0;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#009688), to(#009688)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
-        background-image: -webkit-linear-gradient(#009688, #009688), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
-        background-image: -o-linear-gradient(#009688, #009688), -o-linear-gradient(#D2D2D2, #D2D2D2);
-        background-image: linear-gradient(#009688, #009688), linear-gradient(#D2D2D2, #D2D2D2);
-        -webkit-background-size: 0 2px, 100% 1px;
-        background-size: 0 2px, 100% 1px;
-        background-repeat: no-repeat;
-        background-position: center bottom, center -webkit-calc(100% - 1px);
-        background-position: center bottom, center calc(100% - 1px);
-        background-color: rgba(0, 0, 0, 0);
-        -webkit-transition: background 0s ease-out;
-        -o-transition: background 0s ease-out;
-        transition: background 0s ease-out;
-        float: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    .contact-form {
-        margin: 8px 0 9px !important;
-        padding-bottom: 10px;
-    }
-    .contact-form textarea.form-control {
-        color: #000 !important;
-        height: auto;
-    }
+
     .contacts-btn {
         border: black 1px color: black !important;
         width: 170px;
@@ -337,12 +301,17 @@
         display: none;
     }
     .menu p {
-        line-height: 100%;
         margin-top: 0;
-        margin-bottom: 2%;
+        margin-bottom: 2;
+        color: black;
     }
     .menu h3 {
         font-size: 100%;
+        font-style:italic;
+        color: black;
+    }
+    .menu h4 {
+      color: black;
     }
     .menu #container-fluid {
         position: fixed;
@@ -354,21 +323,17 @@
         text-align: center;
         font-family: "Francois One", arial;
         border: none;
-        background-color: none;
+        background-color: white;
         max-width: 100%;
         height: 100%;
     }
     .nav-tabs>li>a {
         color: black;
         background-color: none;
-        .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
-            background-color: black;
-            color: white;
+        border: none;
+        border-style: none;
         }
-        .nav-tabs>li:hover>a:hover {
-            background-color: black;
-            color: white;
-        }
+
         .footer {
             width: 100%;
             background-color: #222;

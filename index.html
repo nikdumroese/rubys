@@ -2,6 +2,24 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KLKXG69');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ruby's Cafe</title>
@@ -15,6 +33,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLKXG69"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -49,13 +71,13 @@
     <section id="banner">
         <div class="bg-color">
             <header id="header">
-              <div class=logo>
-            <div class="col-md-6 col-md-offset-3">
-              <img src= img\logo1.png class="img-responsive">
-            </div>
-          </div>
+                <div class=logo>
+                    <div class="col-md-6 col-md-offset-3">
+                        <img src=img\logo1.png class="img-responsive">
+                    </div>
+                </div>
         </div>
-      </header>
+        </header>
     </section>
     <!-- / banner -->
     <!--about-->
@@ -94,6 +116,15 @@
         </div>
     </section>
     <!--/about-->
+    <!--photo division-->
+    <section id = "photo1">
+    <div class="container-fluid">
+        <div class="row">
+                    <img src="img\placeholder1.jpeg" class="img-responsive">
+        </div>
+    </div>
+  </section>
+    <!-- /photo division -->
     <!-- menu -->
     <section id="menu-list" class="menu">
         <div class="container-fluid">
@@ -114,7 +145,7 @@
             <div class="tab-pane fade in active" id="breakfast">
                 <div class="col-xs-12 col-md-4">
                     <h4>French Toast</h4>
-                    <p>Three slices of thick Texas Toast dipped in our own batter.</p>
+                    <p>Three slices of thick Texas Toast dipped in our own batter / $6.25</p>
                     <p>$6.25</p>
                     <h4>Short Stack of Pancakes</h4>
                     <p>$4.50 for 2</p>
@@ -216,120 +247,122 @@
                     <p>Melted swiss cheese, onions and peppers over sliced roast beef and served on a roll</p>
                     <p>$10.25</p>
                     <h4>The Stacker</h4>
-                    <p>Beef or turkey stacked high with mashed potatoes and gravy<p>
-                    <p>$10.25</p>
-                    <h4>Porky</h4>
-                    <p>Boneless pork chop, breaded and fried served on a potato bun</p>
-                    <p>$9.25</p>
-                    <h4>Rock Creek Ruben</h4>
-                    <p>Corned beef, swiss, sauerkraut and 1,000 island</p>
-                    <p>$10.25</p>
-                    <h4>Beartooth Meatloaf Melt</h4>
-                    <p>Homemade meatloaf served between sourdough bread, with grilled onions</p>
-                    <p>$10.25</p>
-                    <h4>Clarkfork Club Sandwich</h4>
-                    <p>Not your mom's club. Chicken breast, bacon, lettuce, tomatoes and cheddar cheese served on Texas toast</p>
-                    <p>$9.75</p>
-                    <br>
-                    <h3>Cold Sandwiches are served on your choice of bread, with mayo, lettuce and tomatoes and come with your choice of soup, salad, fries or Ruby's fries.</h3>
-                    <h4>Deli Sandwich</h4>
-                    <p>Beef, turkey, ham or BLT</p>
-                    <p>1/2: $5.95</p>
-                    <p>Whole: $7.95</p>
-                    <h4>Ruby's Deli Special</h4>
-                    <p>1/2 deli sandwich, cup of soup or salad and a slice of pie</p>
-                    <p>$8.50</p>
+                    <p>Beef or turkey stacked high with mashed potatoes and gravy
+                        <p>
+                            <p>$10.25</p>
+                            <h4>Porky</h4>
+                            <p>Boneless pork chop, breaded and fried served on a potato bun</p>
+                            <p>$9.25</p>
+                            <h4>Rock Creek Ruben</h4>
+                            <p>Corned beef, swiss, sauerkraut and 1,000 island</p>
+                            <p>$10.25</p>
+                            <h4>Beartooth Meatloaf Melt</h4>
+                            <p>Homemade meatloaf served between sourdough bread, with grilled onions</p>
+                            <p>$10.25</p>
+                            <h4>Clarkfork Club Sandwich</h4>
+                            <p>Not your mom's club. Chicken breast, bacon, lettuce, tomatoes and cheddar cheese served on Texas toast</p>
+                            <p>$9.75</p>
+                            <br>
+                            <h3>Cold Sandwiches are served on your choice of bread, with mayo, lettuce and tomatoes and come with your choice of soup, salad, fries or Ruby's fries.</h3>
+                            <h4>Deli Sandwich</h4>
+                            <p>Beef, turkey, ham or BLT</p>
+                            <p>1/2: $5.95</p>
+                            <p>Whole: $7.95</p>
+                            <h4>Ruby's Deli Special</h4>
+                            <p>1/2 deli sandwich, cup of soup or salad and a slice of pie</p>
+                            <p>$8.50</p>
                 </div>
                 <div class="col-xs-12 col-md-4">
-                  <h3>The following items are served with your choice of potato, veggies and soup or salad</h3>
-                  <h4>Chicken Fried Steak</h4>
-                  <p>Fork tender NY cut, breaded in house</p>
-                  <p>$11.75</p>
-                  <h4>Beef liver and onioins</h4>
-                  <p>Topped with gravy if you choose</p>
-                  <h4>Hamburger Steak</h4>
-                  <p>1/2 pound burger served with grilled onions</p>
-                  <h4>Chicken Strips</h4>
-                  <p>Whole muscle breast filets, lightly breaded<p>
-                  <p>$10.25</p>
-                  <h4>Chicken Pot Pie</h4>
-                  <p>Made in-house with potatoes, veggies and lots of gravy</p>
-                  <p>$9.95</p>
-                  <h4>Beef Pastie</h4>
-                  <p>Plate size, served with brown gravy, our specialty</p>
-                  <p>$10.25</p>
-                  <h4>Fish and Chips</h4>
-                  <p>Beer battered cod fillets, served with lemon wedges and tartar sauce</p>
-                  <p>$11.50</p>
-                  <h4>Prime Rib</h4>
-                  <p>Served Fridays and Saturdays only after 4 p.m.</p>
-                  <p>$16.75</p>
-                  <br>
-                  <h3>The following items are served a la carte:</h3>
-                  <h4>Mini Corn Dog Basket</h4>
-                  <p>$6.75</p>
-                  <h4>Ruby's Chili Cheese Fries</h4>
-                  <p>$7.00</p>
-                  <h4>Cheese Fries</h4>
-                  <p>$3.75 & $4.75</p>
-                  <h4>French Fries</h4>
-                  <p>$2.75 & $3.74</p>
+                    <h3>The following items are served with your choice of potato, veggies and soup or salad</h3>
+                    <h4>Chicken Fried Steak</h4>
+                    <p>Fork tender NY cut, breaded in house</p>
+                    <p>$11.75</p>
+                    <h4>Beef liver and onioins</h4>
+                    <p>Topped with gravy if you choose</p>
+                    <h4>Hamburger Steak</h4>
+                    <p>1/2 pound burger served with grilled onions</p>
+                    <h4>Chicken Strips</h4>
+                    <p>Whole muscle breast filets, lightly breaded
+                        <p>
+                            <p>$10.25</p>
+                            <h4>Chicken Pot Pie</h4>
+                            <p>Made in-house with potatoes, veggies and lots of gravy</p>
+                            <p>$9.95</p>
+                            <h4>Beef Pastie</h4>
+                            <p>Plate size, served with brown gravy, our specialty</p>
+                            <p>$10.25</p>
+                            <h4>Fish and Chips</h4>
+                            <p>Beer battered cod fillets, served with lemon wedges and tartar sauce</p>
+                            <p>$11.50</p>
+                            <h4>Prime Rib</h4>
+                            <p>Served Fridays and Saturdays only after 4 p.m.</p>
+                            <p>$16.75</p>
+                            <br>
+                            <h3>The following items are served a la carte:</h3>
+                            <h4>Mini Corn Dog Basket</h4>
+                            <p>$6.75</p>
+                            <h4>Ruby's Chili Cheese Fries</h4>
+                            <p>$7.00</p>
+                            <h4>Cheese Fries</h4>
+                            <p>$3.75 & $4.75</p>
+                            <h4>French Fries</h4>
+                            <p>$2.75 & $3.74</p>
                 </div>
             </div>
-              <div class="tab-pane fade" id="bevs">
+            <div class="tab-pane fade" id="bevs">
                 <div class="col-xs-12 col-md-4">
-                <h2>Beverages</h2>
-                <h4>Coffee or Tea</h4>
-                <p>$1.95</p>
-                <h4>Hot Chocolate</h4>
-                <p>$2.50</p>
-                <h4>Milk</h4>
-                <p>$2.50</p>
-                <h4>Juice</h4>
-                <p>$2.80</p>
-                <h4>Fountain Soda</h4>
-                <p>$2.50</p>
-                <h4>Iced Tea</h4>
-                <p>$1.95</p>
-                <h4>Milkshakes</h4>
-                <p>Made with hard ice cream</p>
-                <p>$3.95</p>
-                <h4>Italian Sodas</h4>
-                <p>$2.74</p>
-              </div>
-              <div class="col-xs-12 col-md-4">
-                <h2>Desserts</h2>
-                <h3>Fresh baked baked goods are available in our restaurant 7 days a week</h3>
-                <h4>Cream and Fruit Pies</h4>
-                <p>$4.50</p>
-                <p>A la mode: $4.95</p>
-                <h4>Cookies</h4>
-                <p>$1.75</p>
-                <h4>Ice Cream</h4>
-                <p>Small $1.75</p>
-                <p>Large $2.95</p>
-                <h4>Brownies</h4>
-                <p>$1.75</p>
-                <p>Sundae: $3.95</p>
+                    <h2>Beverages</h2>
+                    <h4>Coffee or Tea</h4>
+                    <p>$1.95</p>
+                    <h4>Hot Chocolate</h4>
+                    <p>$2.50</p>
+                    <h4>Milk</h4>
+                    <p>$2.50</p>
+                    <h4>Juice</h4>
+                    <p>$2.80</p>
+                    <h4>Fountain Soda</h4>
+                    <p>$2.50</p>
+                    <h4>Iced Tea</h4>
+                    <p>$1.95</p>
+                    <h4>Milkshakes</h4>
+                    <p>Made with hard ice cream</p>
+                    <p>$3.95</p>
+                    <h4>Italian Sodas</h4>
+                    <p>$2.74</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>Desserts</h2>
+                    <h3>Fresh baked baked goods are available in our restaurant 7 days a week</h3>
+                    <h4>Cream and Fruit Pies</h4>
+                    <p>$4.50</p>
+                    <p>A la mode: $4.95</p>
+                    <h4>Cookies</h4>
+                    <p>$1.75</p>
+                    <h4>Ice Cream</h4>
+                    <p>Small $1.75</p>
+                    <p>Large $2.95</p>
+                    <h4>Brownies</h4>
+                    <p>$1.75</p>
+                    <p>Sundae: $3.95</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2>Sides</h2>
+                    <h4>Bacon, links or patty sausage</h4>
+                    <p>$3.95</p>
+                    <p>1/2 order or bacon or links: $2.10</p>
+                    <h4>Ham</h4>
+                    <p>6 oz. bone-in</p>
+                    <p>$4.95</p>
+                    <h4>Eggs</h4>
+                    <p>1: $1.85</p>
+                    <p>2: $2.95</p>
+                    <h4>Hash Browns</h4>
+                    <p>$2.95</p>
+                    <p>With Gravy: $3.95</p>
+                    <h4>One biscuit with white gravy</h4>
+                    <p>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-4">
-              <h2>Sides</h2>
-              <h4>Bacon, links or patty sausage</h4>
-              <p>$3.95</p>
-              <p>1/2 order or bacon or links: $2.10</p>
-              <h4>Ham</h4>
-              <p>6 oz. bone-in</p>
-              <p>$4.95</p>
-              <h4>Eggs</h4>
-              <p>1: $1.85</p>
-              <p>2: $2.95</p>
-              <h4>Hash Browns</h4>
-              <p>$2.95</p>
-              <p>With Gravy: $3.95</p>
-              <h4>One biscuit with white gravy</h4>
-              <p>
-            </div>
-        </div>
     </section>
     <!--/ menu -->
     <!-- footer -->
